@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: #d31111;
+            color: white;
+            text-align: center;
+            font-size: 35px;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: #7df57d;
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            welcome
+        </h1>
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+
+    <footer>
+        <h1>
+            goodbye
+        </h1>
+    </footer>
+</body>
+</html>
